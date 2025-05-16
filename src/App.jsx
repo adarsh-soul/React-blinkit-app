@@ -8,12 +8,13 @@ import DairyProducts from './DairyProducts';
 
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Cart from './cart';
+
 import Orders from './Orders';
 import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import {   useSelector } from 'react-redux';
 import Home from './Home';
+import Cart from './Cart';
 
 
 function App() {
